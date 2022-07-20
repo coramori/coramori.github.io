@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.resume-contents {
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.left-section {
+    grid-column: span 2;
+    height: 100%;
+    background-color: #ffe8e8;
+}
+
+.right-section {
+    grid-column: span 5;
+    height: 100%;
+    background-color: #493b39;
+    border-radius: 0px 60px 0px 0px;
+}
+
+.left-section-contents{
+    padding: 2rem 2rem;
+}
+
+.profile {
+    width: 100%;
+    border-bottom: 2px solid #493b39;
+}
+
+.profile .profile-image {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.name {
+    color: #493b39;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 2px;    
+}
+
+.profession {
+    color: #493b39;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* .contact-info { border-bottom: 2px solid #1B2631; } */
+.left-title {
+    color: #493b39;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.contact-info ul {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.contact-info ul li,
+.references ul li {
+    padding: .4rem 0;
+    color: #493b39;
+}
+
+.contact-info ul li i,
+.references ul li i {
+    padding-right: 1rem;
+    font-size: 18px;
+    color: #493b39;
+}
+
+.skills ul {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.skills ul li p {
+    padding: .4rem 0;
+    padding-left: 10px;
+    color: #493b39;
+}
+
+.right-section-contents {
+    padding: 2rem 2rem;
+}
+
+.right-title {
+    color: #eeeeee;
+    font-size: 30px;
+}
+
+.gap {
+    padding-bottom: 2rem;
+}
+.about-me-contents {
+    padding-top: 20px;
+    font-size: 18px;
+    color: #eeeeee;
+}
