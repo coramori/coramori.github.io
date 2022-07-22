@@ -104,7 +104,8 @@
     font-size: 25px;
     text-transform: uppercase;
     font-weight: bold;
-    padding-bottom: 10px;    
+    padding-bottom: 10px;
+    padding-top: 20px;    
 }
 
 .gap {
@@ -124,7 +125,8 @@
     padding-top: 20px;    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    color: #F1F8FD;    
+    color: #F1F8FD;
+    text-align: justify;    
 }
 
 .exp-company-name,
@@ -135,7 +137,7 @@
 }
 
 .exp-time-period,
-.educationp-time-period,
+.education-time-period,
 .awards-time-period {
     font-size: 18px;
     padding-left: 5px;
