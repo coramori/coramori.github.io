@@ -1,2 +1,2 @@
 # coramori.github.io
-Currículo do Jornada Dev
+Currículo fictício para portfólio, estudo de HTML & CSS acompanhando as aulas da Jornada Dev EBAC
